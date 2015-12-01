@@ -23,7 +23,7 @@ I love you, MVC.
 5. Create page with a url of "/classmate/PostWallMessage"
   6. This page will allow you to enter your name and the message you want to post on the wall1. Submit a link to your repo.
   7. After posting the page return the person's name and the message they wrote back to the user. It's not required to save this message.
-1. Submit a link to your repo.
+1. Submit a pull request to your forked repo.
 
 ### Hard Mode
 
