@@ -14,8 +14,8 @@ I love you, MVC.
 
 1. Fork this repo and clone the fork. 
 2. Create a MVC app (without authenication enabled) in Visual Studio
-1. Add some text from your favorite ipsum (lorem, bacon, samuel-l, hipster, church) to the "/home/index" page (any where on the page that you would like)
-1. Create a page with a url of "/classmates/list"
+1. Add some text from your favorite ipsum (lorem, bacon, samuel-l, hipster, church) to the "/home/index" page. Replace one of the existing blocks of text on that page with your new text.
+1. Create a page with a url of "/classmates/list" (Hint* you'll need another controller besides 'Home' called 'Classmate')
   1. This page will List your classmates names along with their hair color and height.
   2. This will require creating a ClassmateVM class in your Model Folder.
   3. Your view for "/classmates/list" will have a model of List<ClassmateVM>
