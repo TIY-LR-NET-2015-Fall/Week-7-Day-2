@@ -166,6 +166,8 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Classmates\list.cshtml" />
     <Content Include="Views\PostWallMessage.cshtml" />
+    <Content Include="Views\Classmates\PostWallMessage.cshtml" />
+    <Content Include="Views\Classmates\ThankYou.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

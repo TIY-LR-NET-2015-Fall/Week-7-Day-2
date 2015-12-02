@@ -22,11 +22,23 @@ namespace week7day2.Controllers
             return View(mates);
         }
 
-        public ActionResult PostWallMessage()
+        [HttpGet]
+        public ActionResult PostWallMessage(string name, string message )
         {
+            var model = new WallMessageVM();
+            model.Name = name;
+            model.Message = message;
 
-            var CreateMessage = new WallMessageVM();
-            return View(CreateMessage);
+            return View(model);
+        }
+
+        [HttpPost]
+        public ActionResult PostWallMessage(WallMessageVM newMessage)
+        {
+            //Do complex db stuff to save this message
+
+            newMessage.Message = "PostedMessageTest: " + newMessage.Message;
+            return View("ThankYou", newMessage);
         }
     }
 }
