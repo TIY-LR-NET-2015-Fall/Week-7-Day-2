@@ -20,7 +20,7 @@ I love you, MVC.
   2. This will require creating a ClassmateVM class in your Model Folder.
   3. Your view for "/classmates/list" will have a model of List<ClassmateVM>
   4. Add a foreach loo to the view to iterate through the model
-5. Create page with a url of "/classmate/PostWallMessage"
+5. Create page with a url of "/classmates/PostWallMessage"
   6. This page will allow you to enter your name and the message you want to post on the wall.
   7. After posting the page return the person's name and the message they wrote back to the user. It's not required to save this message.
   8. Hint* Right Click on the action in the controller -> Add View -> Template: Create
