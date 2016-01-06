@@ -13,4 +13,10 @@ namespace Week7Day2.HW.Models
         public string Name { get; set; }
 
     }
+
+    public class WallPostVM
+    {
+        public string Name { get; set; }
+        public string Message { get; set; }
+    }
 }

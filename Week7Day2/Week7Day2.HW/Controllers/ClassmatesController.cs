@@ -22,5 +22,17 @@ namespace Week7Day2.HW.Controllers
 
             return View(model);
         }
+
+        [HttpGet]
+        public ActionResult PostWallMessage()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult PostWallMessage(WallPostVM model)
+        {
+            return Content($"You posted as {model.Name}. And you wrote {model.Message}");
+        }
     }
 }
